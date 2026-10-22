@@ -1,0 +1,26 @@
+name: incident_power_calculator
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - pvlib
+  - scipy
+  - sympy
+  - joblib
+  - jupyter
+  - ipykernel
+  - ipympl
+  - ipywidgets
+  - pythonocc-core=7.9.3
+
+  - pip
+  - pip:
+      - pygad
+      - pyswarms
+      - mealpy
